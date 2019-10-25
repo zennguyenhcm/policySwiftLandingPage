@@ -18,6 +18,7 @@
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./styles/MainStyle.css" />
     <style>
       body {
@@ -160,7 +161,7 @@
           <!-- nested rows -->
           <div class="row my-5">
             <!-- left column -->
-            <div class="col-lg-6 text-center">
+            <div class="col-lg-6 px-5 my-4">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe
                   class="embed-responsive-item"
@@ -168,7 +169,7 @@
                   allowfullscreen
                 ></iframe>
               </div>
-              <div class="text-center">
+              <div class="text-center my-3 p-4">
                 <p class="title extra-light">
                   A Platform Built By Broker For Brokers
                 </p>
@@ -179,7 +180,7 @@
                   filling forms.
                 </p>
                 <p class=" title extra-light">Let me show you how it works!</p>
-                <ul class="text-left" style="color:#fafafa">
+                <ul class="text-left extra-light" style="color:#fafafa">
                   <li>
                     <p class="extra-light">
                       Use BrokerTool to generate quotes from many insurers.
@@ -203,47 +204,46 @@
               </div>
             </div>
             <!-- right column -->
-            <div class="col-lg-6 mx-auto">
-              <div class="d-flex flex-column align-items-center my-auto">
-                  <img
-                    class="img-fluid rounded pb-2"
-                    src="https://via.placeholder.com/200x100?text"
-                    alt=""
-                  />
+            <div class="col-lg-6">
+              <div class="d-flex flex-column align-items-center">
+                <img
+                  class="img-fluid rounded pb-4 my-4"
+                  src="https://via.placeholder.com/200x100?text"
+                  alt=""
+                />
 
-                  <img
-                    class="img-fluid rounded pb-2"
-                    src="https://via.placeholder.com/200x100"
-                    alt=""
-                  />
-              
-              
-                  <img
-                    class="img-fluid rounded pb-2"
-                    src="https://via.placeholder.com/200x100"
-                    alt=""
-                  />
-               
-                  <img
-                    class="img-fluid rounded pb-2"
-                    src="https://via.placeholder.com/200x100"
-                    alt=""
-                  />
-                </div>
+                <img
+                  class="img-fluid rounded pb-4 my-4"
+                  src="https://via.placeholder.com/200x100"
+                  alt=""
+                />
+
+                <img
+                  class="img-fluid rounded pb-4 my-4"
+                  src="https://via.placeholder.com/200x100"
+                  alt=""
+                />
+
+                <img
+                  class="img-fluid rounded pb-4 my-4"
+                  src="https://via.placeholder.com/200x100"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
         </section>
 
         <section>
-          <div class="row align-items-center my-5">
-            <div class="col-lg-6">
+          <div class="row align-items-center m-5">
+            <div class="col-lg-6 ">
               <img
                 class="img-fluid rounded mb-4 mb-lg-0"
                 src="https://via.placeholder.com/400x200"
                 alt=""
               />
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 pl-3 pr-5">
               <p class="title extra-light">
                 GENERATE QUOTES LIKE NEVER BEFORE!
               </p>
@@ -259,8 +259,8 @@
             </div>
           </div>
 
-          <div class="row align-items-center my-5">
-            <div class="col-lg-6">
+          <div class="row align-items-center m-5">
+            <div class="col-lg-6 pl-3 pr-5">
               <p class="title extra-light">
                 FILL FORMS LIKE NEVER BEFORE!
               </p>
@@ -290,18 +290,20 @@
             <div class="card mx-5 p-5">
               <div class="card-body text-center">
                 <h3 class="card-title">Watch Demo:</h3>
-                <h5 class="card-text px-5 py-1 m-1">
+                <h5 class="card-text px-5 py-1 m-3">
                   In Less Than 7 Minutes, You Can save the hassle of generating
                   quotes and filling forms
                 </h5>
-                <div class="embed-responsive embed-responsive-16by9">
+                <div
+                  class="embed-responsive embed-responsive-16by9 m-auto"
+                  style="max-width: 750px;"
+                >
                   <iframe
-                    class="embed-responsive-item"
                     src="https://www.youtube.com/embed/fA9AzCtvFrs"
                     allowfullscreen
                   ></iframe>
                 </div>
-                <div class="row my-3">
+                <div class="row my-3 m-auto p-4">
                   <div class="col-lg-4 p-4">
                     <img
                       class=" img-fluid rounded mb-4 mb-lg-0"
@@ -319,11 +321,10 @@
                       quotes and filling forms!" - Mary Ong
                     </p>
                     <a href="#" class="btn btn-primary"
-                  >Start Free 14 Day Trial Now</a
-                >
+                      >Start Free 14 Day Trial Now</a
+                    >
                   </div>
                 </div>
-                
               </div>
             </div>
           </div>
@@ -339,9 +340,11 @@
                 alt=""
               />
             </div>
-            <div class="col-lg-5">
-              <h1 class="font-weight-light">Business Name or Tagline</h1>
-              <p>
+            <div class="col-lg-5 p-4">
+              <p class="extra-light title">
+                Business Name or Tagline
+              </p>
+              <p class="extra-light">
                 This is a template that is great for small businesses. It
                 doesn't have too much fancy flare to it, but it makes a great
                 use of the standard Bootstrap core components. Feel free to use
