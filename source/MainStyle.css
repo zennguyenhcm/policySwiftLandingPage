@@ -1,0 +1,50 @@
+/* .navbar-dark {
+  background-color: #fafafa;
+  color: #212121; 
+} */
+#myBackground {
+  background-image: linear-gradient(
+    to bottom,
+    #262626 18%,
+    #4ca261 18%
+  ) !important; /* background-color: pink !important; */
+  margin: 0;
+  max-height: 36%;
+}
+/* .navbar {
+  position: relative;
+} */
+#headerCover {
+  width: 100%;
+  /* z-index: -1;
+  position: absolute; */
+}
+p.title {
+  text-transform: capitalize;
+
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif !important;
+}
+p.light {
+  color: #bdbdbd;
+}
+p.primary {
+  color: #4ca261;
+}
+p.dark {
+  color: #262626;
+}
+p.subtitle {
+  font-size: 1em;
+  font-weight: lighter;
+  font-family: "Roboto Condensed", sans-serif;
+}
+p.extra-light {
+  color: #fafafa;
+}
+
+.headerTitle {
+  font-size: 2.31em;
+  font-weight: bold;
+}
