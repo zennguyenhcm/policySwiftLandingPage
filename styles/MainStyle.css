@@ -5,11 +5,11 @@
 #myBackground {
   background-image: linear-gradient(
     to bottom,
-    #262626 15%,
-    #4ca261 15%
+    #262626 11%,
+    #4ca261 11%
   ) !important; /* background-color: pink !important; */
   margin: 0;
-  max-height: 30%;
+  max-height: 22%;
 }
 /* .navbar {
   position: relative;
